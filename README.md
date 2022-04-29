@@ -1,6 +1,6 @@
 ## CanAssist
 
-> An awesome place to work!
+> An very awesome place to work!
 
 ## What is this?
 
