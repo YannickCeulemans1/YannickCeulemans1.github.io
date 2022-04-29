@@ -6,12 +6,16 @@ Lets say you have a couple of commits within your current branch, but you want t
 
 First of all you need to be inside a branch thats not the master branch. And you need to have done more than one commit in your current branch. 
 
-Run `git reset --hard [commit]`, where use the id of the desired commit you want to reset to as commit value. This will set you local HEAD to that of the chosen commit. 
+Run `git reset --hard [commit]`, use the id(can be found on github) of the desired commit you want to reset to as commit value. This will set you local HEAD to that of the chosen commit. 
 
-Now when you do you next commit, you do so just as you would with one exception. When pushing the commit use the `--force` flag. This will delete the commits done after the current branch before resetting. 
+Now when you do your next commit, you do so just as you would with one exception. When pushing the commit use the `--force` flag. This will delete the commits done after the current branch before resetting. 
 
-**Caution!:** This can't be reversed! 
+!> **Caution!:** This can't be reversed! Your commits after the commit you resetted will be lost!
 
-## Visual studio 2022 solution
+#### To summarize:
+- Run: `git reset --hard [commit]`
+- Make you changes
+- Add: `git add .`
+- Commit: `git commit -m "commit description"`
+- Push: `git push --force`
 
-...
