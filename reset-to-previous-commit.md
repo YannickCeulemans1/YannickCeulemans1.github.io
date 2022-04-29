@@ -10,7 +10,7 @@ Run `git reset --hard [commit]`, use the id(can be found on github) of the desir
 
 Now when you do your next commit, you do so just as you would with one exception. When pushing the commit use the `--force` flag. This will delete the commits done after the current branch before resetting. 
 
-!> **Caution!:** This can't be reversed! Your commits after the commit you resetted will be lost!
+!> **Caution!** This can't be reversed! Your commits after the commit you reset will be lost!
 
 #### To summarize:
 - Run: `git reset --hard [commit]`
